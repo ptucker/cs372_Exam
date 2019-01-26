@@ -1,3 +1,21 @@
+/*
+FEEDBACK:
+
+Read from the file correctly: 20/20%
+Implement class hierarchy correctly: 15/20%
+Populate appropriate data structures with shape data: 15/15%
+Show list of shapes correctly: 15/15%
+Show specific shape properties correctly: 13/15%
+Well-structured, well-commented code: 13/15%
+
+
+Comments:
+  interfaceShape shouldn't have a constructor. Make each shape define that.
+  interfaceShape shouldn't define shape-specific functions (getRadius, getArea, ...).
+  remove TODO comments (circle.java)
+  Triangle: calculate Perimeter before area.
+*/
+
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
